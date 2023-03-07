@@ -72,19 +72,6 @@ class _InformationChampsState extends State<InformationChamps> {
                           ),
                         ),
                         const SizedBox(width: 5),
-
-                        // IconButton(
-                        //   icon: Icon(
-                        //     Icons.architecture,
-                        //     color: Colors.green,
-                        //   ),
-                        //   onPressed: () {
-                        //     Navigator.push(
-                        //         context,
-                        //         MaterialPageRoute(
-                        //             builder: (context) => FavouritePage()));
-                        //   },
-                        // ),
                       ],
                     )
                   ],
