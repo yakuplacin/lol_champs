@@ -2,15 +2,7 @@
 
 A new Flutter project.
 
-## Getting Started
+Little project that will show lol characters and their descriptions.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://user-images.githubusercontent.com/93447954/223549871-c301f35b-29bd-4fb4-9a2b-aabf204cd13f.png)
+![image](https://user-images.githubusercontent.com/93447954/223549900-b4c1410f-1b01-4356-8d26-33a7522638ea.png)
