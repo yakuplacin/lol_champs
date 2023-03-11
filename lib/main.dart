@@ -45,12 +45,12 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future<void> fetchHeroes() async {
     var result = await http.get(Uri.parse(
-        "http://ddragon.leagueoflegends.com/cdn/13.1.1/data/en_US/champion.json"));
+        "http://ddragon.leagueoflegends.com/cdn/13.1.1/data/tr_TR/champion.json"));
     print(result);
     print(result.body);
     setState(() {
       check = true;
-      response = json.decode(result.body);
+      response = json.decode(utf8.decode(result.bodyBytes));  //Here, For the characters that are not in English, you should use this one.
       print("HERE\n");
       print(response["data"]["Ahri"]["version"]);
     });
