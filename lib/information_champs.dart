@@ -30,7 +30,7 @@ class _InformationChampsState extends State<InformationChamps> {
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: NetworkImage(
-                  widget.img,
+                  (widget.img.toString().substring(0,  widget.img.toString().length-5) + "1.jpg").toString(),
                 ),
                 fit: BoxFit.cover,
               ),

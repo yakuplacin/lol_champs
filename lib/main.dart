@@ -50,7 +50,8 @@ class _MyHomePageState extends State<MyHomePage> {
     print(result.body);
     setState(() {
       check = true;
-      response = json.decode(utf8.decode(result.bodyBytes));  //Here, For the characters that are not in English, you should use this one.
+      response = json.decode(utf8.decode(result
+          .bodyBytes)); //Here, For the characters that are not in English, you should use this one.
       print("HERE\n");
       print(response["data"]["Ahri"]["version"]);
     });
@@ -259,7 +260,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           builder: (context) => InformationChamps(
                             response,
                             champs[index],
-                            ("${url + champs[index]}_0.jpg"),
+                            ("${url + champs[index]}_1.jpg"),
                           ),
                         ),
                       );
