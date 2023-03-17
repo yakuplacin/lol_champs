@@ -86,7 +86,11 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
         body: !check
-            ? const CircularProgressIndicator()
+            ? const Center(
+                child: CircularProgressIndicator(
+                  backgroundColor: Colors.lightBlueAccent,
+                ),
+              )
             : ListView.builder(
                 scrollDirection: Axis.vertical,
                 itemCount: champs.length,
