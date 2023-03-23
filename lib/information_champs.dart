@@ -81,7 +81,7 @@ class _InformationChampsState extends State<InformationChamps> {
               ),
             ),
             const Padding(
-              padding: EdgeInsets.only(left: 15),
+              padding: EdgeInsets.only(left: 15, bottom: 2),
               child: Text(
                 "Overview",
                 style: TextStyle(
@@ -92,12 +92,12 @@ class _InformationChampsState extends State<InformationChamps> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 15, right: 15, top: 10),
+              padding: const EdgeInsets.only(left: 15, right: 15, top:2, bottom: 20),
               child: Container(
-                padding: EdgeInsets.all(5),
+                padding: const EdgeInsets.all(5),
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: Colors.blueGrey.shade900,
+                  borderRadius: BorderRadius.circular(6),
+                  color: Colors.brown.shade700,
                 ),
                 child: Text(
                   widget.response["data"][widget.champ]["blurb"],
