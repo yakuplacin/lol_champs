@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'League of Legends Heroes',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -135,7 +136,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 ? "${response["data"][champs[index]]["name"]}"
                                 : "",
                             style: const TextStyle(
-                                color: Colors.white,
+                                color: Colors.cyanAccent,
                                 fontWeight: FontWeight.bold),
                           ),
                           // subtitle: Text("Intermediate", style: TextStyle(color: Colors.white)),
@@ -149,14 +150,14 @@ class _MyHomePageState extends State<MyHomePage> {
                                     response["data"][champs[index]] != null
                                         ? "${response["data"][champs[index]]["title"]}"
                                         : "",
-                                    style: const TextStyle(color: Colors.white),
+                                    style: const TextStyle(color: Colors.yellowAccent),
                                   ),
                                 ),
                               ),
                             ],
                           ),
                           trailing: const Icon(Icons.keyboard_arrow_right,
-                              color: Colors.white, size: 30.0),
+                              color: Colors.greenAccent, size: 30.0),
                         ),
                       ),
 

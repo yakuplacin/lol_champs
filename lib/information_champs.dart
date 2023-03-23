@@ -56,7 +56,7 @@ class _InformationChampsState extends State<InformationChamps> {
                       Text(
                         widget.response["data"][widget.champ]["name"],
                         style: const TextStyle(
-                          color: Colors.white,
+                          color: Colors.cyanAccent,
                           fontSize: 32,
                           fontWeight: FontWeight.bold,
                         ),
